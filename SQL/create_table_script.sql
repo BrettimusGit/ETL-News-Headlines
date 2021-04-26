@@ -1,6 +1,7 @@
+DROP TABLE IF EXISTS headlines;
 DROP TABLE IF EXISTS category;
 DROP TABLE IF EXISTS sources;
-DROP TABLE IF EXISTS headlines;
+
 
 CREATE TABLE "category" (
 "category_id" serial NOT NULL,
